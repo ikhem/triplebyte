@@ -1,0 +1,88 @@
+.App {
+  /* background: blue; */
+  text-align: center;
+  height: 600px;
+  background: url('./resources/pattern.png'),linear-gradient(#1D2E81, #32A6EE);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navigation {
+  /* background: orange; */
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 48px;
+  margin: 0px 30px;
+}
+
+.brand {
+  /* background: purple; */
+}
+
+.brand img {
+  width: 146px;
+}
+
+.menu {
+  /* background: grey; */
+}
+
+.menu-items {
+  display: flex;
+}
+
+.menu-items li {
+  margin: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+.caps-white {
+  text-transform: uppercase;
+  color: white;
+}
+
+.quiz {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.header {
+  padding: 50px 0;
+}
+
+.header, h1, h2, h3 {
+  color: white;
+}
+
+.header h2, h3 {
+  text-transform: uppercase;
+}
+
+.process {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 350px;
+}
+
+.process p {
+  font-size: 14px;
+}
+
+.center img {
+  width: 800px;
+}
