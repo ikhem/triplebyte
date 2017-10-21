@@ -43,8 +43,10 @@ class App extends Component {
         </div>
 
         <div className="center">
-          <h3>We work with great companies</h3>
-          <h5>We work with hundreds of companies of different sizes, stages, and industries and personally identify the ones that will be most exciting to you. All allow our pre-screened, pre-matched engineers to skip resume and recruiters screens.</h5>
+          <div className="center-text">
+            <h3>We work with great companies</h3>
+            <h5>We work with hundreds of companies of different sizes, stages, and industries and personally identify the ones that will be most exciting to you. All allow our pre-screened, pre-matched engineers to skip resume and recruiters screens.</h5>
+          </div>
           <img src={require("./resources/company_logos_v12_color.png")} alt="companies" />
           <p>From household names to emerging startups, most companies hiring on our platform aren't listed here.<a href="/companies">We're also adding new companies every week.</a></p>``
         </div>
