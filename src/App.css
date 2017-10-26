@@ -1,10 +1,56 @@
 .App {
-  /* background: blue; */
-  text-align: center;
-  height: 600px;
+  height: 700px;
   background: url('./resources/pattern.png'),linear-gradient(#1D2E81, #32A6EE);
 }
 
+/* Global */
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+h2, h3 {
+  color: white;
+  text-transform: uppercase;
+}
+/* Header */
+
+header {
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  margin: 0px 40px;
+  padding-top: 13px;
+  color: white;
+}
+
+header .brand img{
+  height: 28px;
+  width: 146px;
+}
+
+header nav {
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  padding: 0px 20px;
+  list-style: none;
+}
+
+/*
 ul {
   padding: 0;
 }
@@ -13,17 +59,54 @@ li {
   list-style-type: none;
 }
 
-.navigation {
-  /* background: orange; */
+h1, h2 {
+  color: white;
+}
+
+h3 {
+  color: #4a4a4a;
+}
+
+header {
+  background: orange;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
+  margin: 0px 30px;
   color: white;
   height: 48px;
-  margin: 0px 30px;
+}
+
+nav {
+  background: gray;
+}
+
+nav ul {
+  display: flex;
+  
+}
+.quiz {
+  background-color: #00ba7c;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  padding: 16px 61px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+/* nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
 .brand {
-  /* background: purple; */
+  background: purple;
 }
 
 .brand img {
@@ -31,7 +114,7 @@ li {
 }
 
 .menu {
-  /* background: grey; */
+  background: grey;
 }
 
 .menu-items {
@@ -51,22 +134,10 @@ li {
   color: white;
 }
 
-.quiz {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  text-transform: uppercase;
-  padding: 15px 60px;
-  margin: 30px;
-  cursor: pointer;
-}
+
 
 .header {
   padding: 50px 0;
-}
-
-.header, h1, h2, h3 {
-  color: white;
 }
 
 .header h2, h3 {
@@ -99,3 +170,34 @@ li {
 .center img {
   width: 800px;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  background: #364C5A;
+}
+
+footer ul {
+  display: flex;
+  background: orange;
+}
+
+footer li {
+  margin: 0px 20px 0px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+.top img {
+  height: 100px;
+  width: 100px;
+}
+
+.bottom {
+  background: #f2f5f7;
+}
+
+.card {
+  width: 20rem;
+} */
